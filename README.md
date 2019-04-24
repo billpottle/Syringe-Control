@@ -9,4 +9,8 @@ For the full report, see the Thesis.pdf file.
 
 NOTE: This program was written in 2002 to generate a windows 98 executible - Many of the underlying libraries, assemblies, etc have since been deprecated or updated. 
 
+![Overall System](https://github.com/billpottle/Syringe-Control/blob/master/overall%20system.jpg)
 ![Circuit Diagram](https://github.com/billpottle/Syringe-Control/blob/master/Circuit%20Diagram.jpg)
+![Syringe 3D Housing](https://github.com/billpottle/Syringe-Control/blob/master/Syringe%20Housing%203D%20Model.jpg)
+
+

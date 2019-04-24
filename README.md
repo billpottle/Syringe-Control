@@ -2,3 +2,5 @@
 Masters of Engineering project: DESIGN AND FABRICATION OF A PRECISE AND AUTOMATED SYSTEM FOR THE DEPOSITION OF MICRO LITER FLUID VOLUMES.
 
 This project was to design, build, and control a printer that would print proteins and nucleic acids onto a membrane in an automated fashion and with high levels of repeatability. 
+
+The system consists of an old commercial printer that has been stripped, a stepper motor connected to a syringe housed in a custom machined attachment, and a windows control application written in C++

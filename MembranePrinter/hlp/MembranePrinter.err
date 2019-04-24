@@ -1,0 +1,16 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+MembranePrinter.hpj
+    HC3025: Warning: topic #1 of C:\EASYHELP\examples\MembranePrinter.rtf : 
+	Jump to undefined Topic ID: "Note".
+7	Topics
+8	Jumps
+4	Keywords
+1	Bitmap
+
+
+Created C:\EASYHELP\examples\MembranePrinter.hlp, 15,625 bytes
+Bitmaps: 365 bytes
+Compile time: 0 minutes, 0 seconds
+0 notes, 1 warning

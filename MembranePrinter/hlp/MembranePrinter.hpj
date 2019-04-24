@@ -1,0 +1,26 @@
+[OPTIONS]
+contents=contents
+root=C:\EASYHELP\examples
+bmroot=C:\EASYHELP\graphics
+errorlog=C:\EASYHELP\examples\MembranePrinter.err
+title=EasyHelp/Web Example
+icon=f1.ico
+copyright=Made with EasyHelp/Web (www.easyhelp.com)
+citation=Made with the unregisted copy of EasyHelp/Web. Visit www.easyhelp.com for details of this superb WinHelp & HTML authoring tool!
+compress=no
+[FILES]
+MembranePrinter.rtf
+[WINDOWS]
+main="EasyHelp/Web Example",(46,53,922,913),0,,(255,255,192), 0
+aux="Second Help Window (aux)",(346,353,422,413),,,(0,255,255), 0
+third="EasyHelp/Web",(346,353,422,413),,,, 0
+fourth="EasyHelp/Web",(346,353,422,413),,,, 0
+[CONFIG]
+BrowseButtons()
+#include <C:\EASYHELP\macros\32bit.mac>
+
+CB("btn_print","&Print","Print()")
+CB("btn_exit","&Exit","Exit()")
+CB("","&Unregistered","EF(www.easyhelp.com)")
+[MAP]
+#include <C:\EASYHELP\examples\MembranePrinter.h>

@@ -1,0 +1,6 @@
+THe easy help program creates (all?) the necessary files in its directory. Those files can probably be
+copied into the hlp directory of membrane printer and hopefully linked up on compilation. 
+
+Compilation of rebuild all necessary to get correct help file linked. 
+
+

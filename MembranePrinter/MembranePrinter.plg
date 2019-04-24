@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MembranePrinter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TMP\RSP33A6.BAT" with contents
+[
+@echo off
+copy "hlp\MembranePrinter.cnt" .\Debug
+]
+Creating command line "C:\TMP\RSP33A6.BAT"
+Creating temporary file "C:\TMP\RSP33B0.BAT" with contents
+[
+@echo off
+echo. >"hlp\MembranePrinter.hm"
+echo // Commands (ID_* and IDM_*) >>"hlp\MembranePrinter.hm"
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h >>"hlp\MembranePrinter.hm"
+echo. >>"hlp\MembranePrinter.hm"
+echo // Prompts (IDP_*) >>"hlp\MembranePrinter.hm"
+makehm IDP_,HIDP_,0x30000 resource.h >>"hlp\MembranePrinter.hm"
+echo. >>"hlp\MembranePrinter.hm"
+echo // Resources (IDR_*) >>"hlp\MembranePrinter.hm"
+makehm IDR_,HIDR_,0x20000 resource.h >>"hlp\MembranePrinter.hm"
+echo. >>"hlp\MembranePrinter.hm"
+echo // Dialogs (IDD_*) >>"hlp\MembranePrinter.hm"
+makehm IDD_,HIDD_,0x20000 resource.h >>"hlp\MembranePrinter.hm"
+echo. >>"hlp\MembranePrinter.hm"
+echo // Frame Controls (IDW_*) >>"hlp\MembranePrinter.hm"
+makehm IDW_,HIDW_,0x50000 resource.h >>"hlp\MembranePrinter.hm"
+]
+Creating command line "C:\TMP\RSP33B0.BAT"
+Creating temporary file "C:\TMP\RSP33B1.BAT" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\MembranePrinter.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\MembranePrinter.hlp" goto :Error
+copy "hlp\MembranePrinter.hlp" .\Debug
+goto :done
+:Error
+echo hlp\MembranePrinter.hpj(1) : error:
+type "hlp\MembranePrinter.log"
+:done
+]
+Creating command line "C:\TMP\RSP33B1.BAT"
+Creating command line "rc.exe /l 0x409 /fo"Debug/MembranePrinter.res" /d "_DEBUG" /d "_AFXDLL" "C:\My Documents\Bill\MembranePrinter\MembranePrinter.rc"" 
+Copying contents file...
+        1 file(s) copied
+Making help include file...
+Making help file...
+        1 file(s) copied
+Creating temporary file "C:\TMP\RSP4041.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MembranePrinter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Bill\MembranePrinter\MembranePrinter.cpp"
+"C:\My Documents\Bill\MembranePrinter\MembranePrinterDlg.cpp"
+"C:\My Documents\Bill\MembranePrinter\printercontroller.cpp"
+]
+Creating command line "cl.exe @C:\TMP\RSP4041.TMP" 
+Creating temporary file "C:\TMP\RSP4042.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MembranePrinter.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Bill\MembranePrinter\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TMP\RSP4042.TMP" 
+Creating temporary file "C:\TMP\RSP4043.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MembranePrinter.pdb" /debug /machine:I386 /out:"Debug/MembranePrinter.exe" /pdbtype:sept 
+".\Debug\MembranePrinter.obj"
+".\Debug\MembranePrinterDlg.obj"
+".\Debug\printercontroller.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MembranePrinter.res"
+".\nidaq32.lib"
+".\nidex32.lib"
+]
+Creating command line "link.exe @C:\TMP\RSP4043.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MembranePrinter.cpp
+MembranePrinterDlg.cpp
+printercontroller.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MembranePrinter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

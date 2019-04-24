@@ -4,3 +4,7 @@ Masters of Engineering project: DESIGN AND FABRICATION OF A PRECISE AND AUTOMATE
 This project was to design, build, and control a printer that would print proteins and nucleic acids onto a membrane in an automated fashion and with high levels of repeatability. 
 
 The system consists of an old commercial printer that has been stripped, a stepper motor connected to a syringe housed in a custom machined attachment, and a windows control application written in C++
+
+For the full report, see the Thesis.pdf file. The images also provide overall information about the system that was constructed. 
+
+NOTE: This program was written in 2002 to generate a windows 98 executible - Many of the underlying libraries, assemblies, etc have since been deprecated or updated. 

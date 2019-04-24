@@ -5,6 +5,8 @@ This project was to design, build, and control a printer that would print protei
 
 The system consists of an old commercial printer that has been stripped, a stepper motor connected to a syringe housed in a custom machined attachment, and a windows control application written in C++
 
-For the full report, see the Thesis.pdf file. The images also provide overall information about the system that was constructed. 
+For the full report, see the Thesis.pdf file. 
 
 NOTE: This program was written in 2002 to generate a windows 98 executible - Many of the underlying libraries, assemblies, etc have since been deprecated or updated. 
+
+![Circuit Diagram](https://github.com/billpottle/Syringe-Control/blob/master/Circuit%20Diagram.jpg)
